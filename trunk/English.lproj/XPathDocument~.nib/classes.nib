@@ -1,0 +1,18 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {clear = id; evaluate = id; selectPath = id; }; 
+            CLASS = XPathController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                evalButton = NSButton; 
+                pathField = NSTextField; 
+                progressIndicator = NSProgressIndicator; 
+                textView = NSTextView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

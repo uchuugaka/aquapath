@@ -1,0 +1,26 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {clear = id; evaluate = id; selectPath = id; }; 
+            CLASS = AquaPathController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                XPathService = id; 
+                evalButton = NSButton; 
+                pathField = NSTextField; 
+                progressIndicator = NSProgressIndicator; 
+                resultScrollView = NSScrollView; 
+                resultView = NSTextView; 
+                sourceScrollView = NSScrollView; 
+                sourceView = NSTextView; 
+                statusField = NSTextField; 
+                tabView = NSTabView; 
+                webView = WebView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = BorderView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}
