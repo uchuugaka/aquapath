@@ -8,6 +8,8 @@
 
 #import "XPathServiceNSXMLImpl.h"
 #import "XSLTBasedDHTMLPrettyPrinter.h"
+#import "TreeBasedDHTMLPrettyPrinter.h"
+#import "EventBasedDHTMLPrettyPrinter.h"
 
 static NSString *XPathKey = @"XPath";
 static NSString *XMLStringKey = @"XMLString";
@@ -38,7 +40,9 @@ static NSString *ContextPathKey = @"ContextPath";
 	self = [super init];
 	if (self != nil) {
 		[self setDelegate:aDelegate];
-		prettyPrinter = [[XSLTBasedDHTMLPrettyPrinter alloc] init];
+//		prettyPrinter = [[XSLTBasedDHTMLPrettyPrinter alloc] init];
+		prettyPrinter = [[TreeBasedDHTMLPrettyPrinter alloc] init];
+//		prettyPrinter = [[EventBasedDHTMLPrettyPrinter alloc] init];
 	}
 	return self;
 }

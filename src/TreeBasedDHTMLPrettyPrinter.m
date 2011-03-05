@@ -134,14 +134,14 @@
 	if ([[self XPaths] containsObject:currXPath]) {
 		if (isContextNode) {
 			NSLog(@"document node is context node!");
-			resourceName = @"bodyMatchedContext";
+			resourceName = @"bodyMatched"; // Context";
 		} else {
 			resourceName = @"bodyMatched";
 		}
 	} else {
 		if (isContextNode) {
 			NSLog(@"document node is context node!");
-			resourceName = @"bodyContext";
+			resourceName = @"body"; // Context";
 		} else {
 			resourceName = @"body";
 		}
@@ -198,13 +198,13 @@
 
 	if ([[self XPaths] containsObject:currXPath]) {
 		if (isContextNode) {
-			resourceName = @"openStartTagMatchedContext";
+			resourceName = @"openStartTagMatched"; // Context";
 		} else {
 			resourceName = @"openStartTagMatched";
 		}
 	} else {
 		if (isContextNode) {
-			resourceName = @"openStartTagContext";
+			resourceName = @"openStartTag"; // Context";
 		} else {
 			resourceName = @"openStartTag";
 		}
@@ -267,13 +267,13 @@
 		
 		if ([[self XPaths] containsObject:currXPath]) {
 			if (isContextNode) {
-				resourceName = @"attrMatchedContext";
+				resourceName = @"attrMatched"; // Context";
 			} else {
 				resourceName = @"attrMatched";
 			}
 		} else {
 			if (isContextNode) {
-				resourceName = @"attrContext";
+				resourceName = @"attr"; // Context";
 			} else {
 				resourceName = @"attr";
 			}
@@ -294,13 +294,13 @@
 	
 	if ([[self XPaths] containsObject:currXPath]) {
 		if (isContextNode) {
-			resourceName = @"textMatchedContext";
+			resourceName = @"textMatched"; // Context";
 		} else {
 			resourceName = @"textMatched";
 		}
 	} else {
 		if (isContextNode) {
-			resourceName = @"textContext";
+			resourceName = @"text"; // Context";
 		} else {
 			resourceName = @"text";
 		}
@@ -320,13 +320,13 @@
 	
 	if ([[self XPaths] containsObject:currXPath]) {
 		if (isContextNode) {
-			resourceName = @"commentMatchedContext";
+			resourceName = @"commentMatched"; // Context";
 		} else {
 			resourceName = @"commentMatched";
 		}
 	} else {
 		if (isContextNode) {
-			resourceName = @"commentContext";
+			resourceName = @"comment"; // Context";
 		} else {
 			resourceName = @"comment";
 		}
@@ -347,13 +347,13 @@
 		
 	if ([[self XPaths] containsObject:currXPath]) {
 		if (isContextNode) {
-			resourceName = @"piMatchedContext";
+			resourceName = @"piMatched"; // Context";
 		} else {
 			resourceName = @"piMatched";
 		}
 	} else {
 		if (isContextNode) {
-			resourceName = @"piContext";
+			resourceName = @"pi"; // Context";
 		} else {
 			resourceName = @"pi";
 		}
