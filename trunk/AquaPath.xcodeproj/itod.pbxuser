@@ -1,0 +1,256 @@
+// !$*UTF8*$!
+{
+	2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = D3EA1D051321FDC4004C1718 /* AquaPath */;
+		activeTarget = 8D15AC270486D014006FF6A4 /* AquaPath */;
+		addToTargets = (
+			8D15AC270486D014006FF6A4 /* AquaPath */,
+		);
+		codeSenseManager = D3EA1D191321FDC7004C1718 /* Code sense */;
+		executables = (
+			D3EA1D051321FDC4004C1718 /* AquaPath */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					364,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					340,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1221,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 320994853;
+			PBXWorkspaceStateSaveDate = 320994853;
+		};
+		perUserProjectItems = {
+			D3EA1E5F1321FEE5004C1718 /* PBXBookmark */ = D3EA1E5F1321FEE5004C1718 /* PBXBookmark */;
+			D3EA1E601321FEE5004C1718 /* PBXTextBookmark */ = D3EA1E601321FEE5004C1718 /* PBXTextBookmark */;
+			D3EA1E611321FEE5004C1718 /* PlistBookmark */ = D3EA1E611321FEE5004C1718 /* PlistBookmark */;
+			D3EA1E621321FEE5004C1718 /* XCBuildMessageTextBookmark */ = D3EA1E621321FEE5004C1718 /* XCBuildMessageTextBookmark */;
+			D3EA1E631321FEE5004C1718 /* PBXTextBookmark */ = D3EA1E631321FEE5004C1718 /* PBXTextBookmark */;
+			D3EA1E6F1321FF27004C1718 /* PBXTextBookmark */ = D3EA1E6F1321FF27004C1718 /* PBXTextBookmark */;
+			D3EA1E701321FF27004C1718 /* PBXTextBookmark */ = D3EA1E701321FF27004C1718 /* PBXTextBookmark */;
+			D3EA1E711321FF27004C1718 /* PBXBookmark */ = D3EA1E711321FF27004C1718 /* PBXBookmark */;
+			D3EA1E721321FF27004C1718 /* PBXTextBookmark */ = D3EA1E721321FF27004C1718 /* PBXTextBookmark */;
+		};
+		sourceControlManager = D3EA1D181321FDC7004C1718 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D15AC270486D014006FF6A4 /* AquaPath */ = {
+		activeExec = 0;
+		executables = (
+			D3EA1D051321FDC4004C1718 /* AquaPath */,
+		);
+	};
+	D3EA1D051321FDC4004C1718 /* AquaPath */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = AquaPath;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D3EA1D181321FDC7004C1718 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	D3EA1D191321FDC7004C1718 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	D3EA1D3F1321FE38004C1718 /* AquaPathController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1451, 855}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1099}";
+		};
+	};
+	D3EA1D421321FE38004C1718 /* AquaPathDocument.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1451, 643}}";
+			sepNavSelRange = "{152, 0}";
+			sepNavVisRange = "{0, 374}";
+		};
+	};
+	D3EA1D461321FE38004C1718 /* XPathServiceNSXMLImpl.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1612, 3285}}";
+			sepNavSelRange = "{3537, 0}";
+			sepNavVisRange = "{3424, 994}";
+		};
+	};
+	D3EA1D591321FE4D004C1718 /* prettyxml.xsl */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {554, 2805}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 213}";
+		};
+	};
+	D3EA1E5F1321FEE5004C1718 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D3EA1D571321FE49004C1718 /* appl.icns */;
+	};
+	D3EA1E601321FEE5004C1718 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3EA1D591321FE4D004C1718 /* prettyxml.xsl */;
+		name = "prettyxml.xsl: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 213;
+		vrLoc = 0;
+	};
+	D3EA1E611321FEE5004C1718 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D15AC360486D014006FF6A4 /* AquaPath-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleInfoDictionaryVersion,
+		);
+		name = "/Users/itod/work/aquapath/trunk/AquaPath-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	D3EA1E621321FEE5004C1718 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Format not a string literal and no format arguments";
+		fRef = D3EA1D461321FE38004C1718 /* XPathServiceNSXMLImpl.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 156;
+		rType = 1;
+	};
+	D3EA1E631321FEE5004C1718 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3EA1D461321FE38004C1718 /* XPathServiceNSXMLImpl.m */;
+		name = "XPathServiceNSXMLImpl.m: 157";
+		rLen = 41;
+		rLoc = 3892;
+		rType = 0;
+		vrLen = 994;
+		vrLoc = 3424;
+	};
+	D3EA1E6F1321FF27004C1718 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3EA1D461321FE38004C1718 /* XPathServiceNSXMLImpl.m */;
+		name = "XPathServiceNSXMLImpl.m: 142";
+		rLen = 0;
+		rLoc = 3537;
+		rType = 0;
+		vrLen = 994;
+		vrLoc = 3424;
+	};
+	D3EA1E701321FF27004C1718 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3EA1D3F1321FE38004C1718 /* AquaPathController.h */;
+		name = "AquaPathController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1099;
+		vrLoc = 0;
+	};
+	D3EA1E711321FF27004C1718 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D3EA1D421321FE38004C1718 /* AquaPathDocument.h */;
+	};
+	D3EA1E721321FF27004C1718 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D3EA1D421321FE38004C1718 /* AquaPathDocument.h */;
+		name = "AquaPathDocument.h: 8";
+		rLen = 0;
+		rLoc = 152;
+		rType = 0;
+		vrLen = 374;
+		vrLoc = 0;
+	};
+}
