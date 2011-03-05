@@ -165,9 +165,7 @@
 #pragma mark -
 #pragma mark WebUIDelegate methods
 
-- (NSArray *)webView:(WebView *)sender 
-contextMenuItemsForElement:(NSDictionary *)dict 
-	defaultMenuItems:(NSArray *)defaultMenuItems
+- (NSArray *)webView:(WebView *)sender contextMenuItemsForElement:(NSDictionary *)dict defaultMenuItems:(NSArray *)defaultMenuItems;
 {
 	DOMNode *node = [dict objectForKey:WebElementDOMNodeKey];
 	if (!node) {
@@ -176,9 +174,9 @@ contextMenuItemsForElement:(NSDictionary *)dict
 	DOMElement *el = [self getFirstAncestorOrSelfOfNode:node byClassName:@"us-dalo-node-wrap"];
 	NSString *XPath = [el getAttribute:@"xpath"];
 	NSString *title = [NSString stringWithFormat:@"Set as Context Node (%@)",XPath];
-	NSMenuItem *item = [[NSMenuItem alloc] initWithTitle:title
-												 action:@selector(setContextPath:) 
-										  keyEquivalent:@""];
+	NSMenuItem *item = [[[NSMenuItem alloc] initWithTitle:title
+                                                   action:@selector(setContextPath:) 
+                                            keyEquivalent:@""] autorelease];
 	[item setTarget:self];
 	[item setRepresentedObject:XPath];
 	return [NSArray arrayWithObject:item];

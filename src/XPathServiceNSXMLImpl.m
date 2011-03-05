@@ -143,18 +143,14 @@ static NSString *ContextPathKey = @"ContextPath";
 	NSXMLDocument *doc;
     NSError *err = nil;
 
-    doc = [[NSXMLDocument alloc] initWithXMLString:XMLString
-										   options:NSXMLDocumentTidyXML
-											 error:&err];
+    doc = [[[NSXMLDocument alloc] initWithXMLString:XMLString options:NSXMLDocumentTidyXML error:&err] autorelease];
     
-    if (doc == nil)  {
-		[NSException raise:@"XPathServiceException"
-					format:@"Could not parse input XML"];
+    if (!doc)  {
+		[NSException raise:@"XPathServiceException" format:@"Could not parse input XML"];
 	}
 	
 	if (err) {
-		[NSException raise:@"XPathServiceException"
-					format:[err localizedDescription]];
+		[NSException raise:@"XPathServiceException" format:@"%@", [err localizedDescription]];
 	}
 
 	return doc;
@@ -173,9 +169,7 @@ static NSString *ContextPathKey = @"ContextPath";
 {
 	NSDictionary *userInfo = [NSDictionary dictionaryWithObject:msg
 														 forKey:NSLocalizedDescriptionKey];
-	NSError *err = [[NSError alloc] initWithDomain:@"XPathService"
-											  code:1
-										  userInfo:userInfo];
+	NSError *err = [NSError errorWithDomain:@"XPathService" code:1 userInfo:userInfo];
 	[[self delegate] error:err fromXPathService:self];
 }
 

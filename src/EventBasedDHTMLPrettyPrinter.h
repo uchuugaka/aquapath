@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface EventBasedDHTMLPrettyPrinter : NSObject {
+@interface EventBasedDHTMLPrettyPrinter : NSObject <NSXMLParserDelegate> {
 	id delegate;
 	NSMutableString *prettyString;
 }
@@ -18,12 +18,9 @@
 
 - (id)delegate;
 - (void)setDelegate:(id)delegate;
-
 @end
 
-@interface NSObject ( EventBasedDHTMLPrettyPrinterDelegate )
-
+@interface NSObject (EventBasedDHTMLPrettyPrinterDelegate)
 - (void)prettyPrinterDidFinishParsing:(NSString *)prettyString;
-
 @end
 
