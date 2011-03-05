@@ -12,7 +12,7 @@
 				<string>aquapath</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string></string>
+			<string>aquapathdoc.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>AquaPath Document</string>
 			<key>CFBundleTypeOSTypes</key>
@@ -28,7 +28,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
-	<string>appl</string>
+	<string>aquapath.icns</string>
 	<key>CFBundleIdentifier</key>
 	<string>nu.tod.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -43,6 +43,8 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.developer-tools</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
 	<key>NSMainNibFile</key>
