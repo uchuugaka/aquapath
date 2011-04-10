@@ -11,8 +11,10 @@
 		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
 		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
-		D3EA1D501321FE38004C1718 /* AquaPathController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EA1D401321FE38004C1718 /* AquaPathController.m */; };
-		D3EA1D511321FE38004C1718 /* AquaPathDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EA1D431321FE38004C1718 /* AquaPathDocument.m */; };
+		D34DAB471350EEF500EF111A /* APPrefsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D34DAB451350EEF500EF111A /* APPrefsWindow.xib */; };
+		D34DAB4B1350F01900EF111A /* APPrefsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D34DAB4A1350F01900EF111A /* APPrefsWindowController.m */; };
+		D3EA1D501321FE38004C1718 /* APWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EA1D401321FE38004C1718 /* APWindowController.m */; };
+		D3EA1D511321FE38004C1718 /* APDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EA1D431321FE38004C1718 /* APDocument.m */; };
 		D3EA1D521321FE38004C1718 /* XPathServiceNSXMLImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EA1D461321FE38004C1718 /* XPathServiceNSXMLImpl.m */; };
 		D3EA1D531321FE38004C1718 /* TreeBasedDHTMLPrettyPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EA1D491321FE38004C1718 /* TreeBasedDHTMLPrettyPrinter.m */; };
 		D3EA1D541321FE38004C1718 /* EventBasedDHTMLPrettyPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EA1D4B1321FE38004C1718 /* EventBasedDHTMLPrettyPrinter.m */; };
@@ -48,7 +50,7 @@
 		D3EA1D921321FE53004C1718 /* bodyMatchedContext.html in Resources */ = {isa = PBXBuildFile; fileRef = D3EA1D761321FE53004C1718 /* bodyMatchedContext.html */; };
 		D3EA1D931321FE53004C1718 /* bodyContext.html in Resources */ = {isa = PBXBuildFile; fileRef = D3EA1D771321FE53004C1718 /* bodyContext.html */; };
 		D3EA1D9B1321FE8C004C1718 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EA1D9A1321FE8C004C1718 /* WebKit.framework */; };
-		D3EA1E6B1321FEF4004C1718 /* AquaPathWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3EA1E671321FEF4004C1718 /* AquaPathWindow.xib */; };
+		D3EA1E6B1321FEF4004C1718 /* APDocumentWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3EA1E671321FEF4004C1718 /* APDocumentWindow.xib */; };
 		D3EA1E6C1321FEF4004C1718 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3EA1E691321FEF4004C1718 /* MainMenu.xib */; };
 		D3EA210E1322A519004C1718 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = D3EA210D1322A519004C1718 /* iTunesArtwork.png */; };
 		D3EA21101322A522004C1718 /* aquapath.icns in Resources */ = {isa = PBXBuildFile; fileRef = D3EA210F1322A522004C1718 /* aquapath.icns */; };
@@ -65,10 +67,13 @@
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D15AC360486D014006FF6A4 /* AquaPath-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AquaPath-Info.plist"; sourceTree = "<group>"; };
 		8D15AC370486D014006FF6A4 /* AquaPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AquaPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3EA1D3F1321FE38004C1718 /* AquaPathController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AquaPathController.h; path = src/AquaPathController.h; sourceTree = "<group>"; };
-		D3EA1D401321FE38004C1718 /* AquaPathController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AquaPathController.m; path = src/AquaPathController.m; sourceTree = "<group>"; };
-		D3EA1D421321FE38004C1718 /* AquaPathDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AquaPathDocument.h; path = src/AquaPathDocument.h; sourceTree = "<group>"; };
-		D3EA1D431321FE38004C1718 /* AquaPathDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AquaPathDocument.m; path = src/AquaPathDocument.m; sourceTree = "<group>"; };
+		D34DAB461350EEF500EF111A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/APPrefsWindow.xib; sourceTree = "<group>"; };
+		D34DAB491350F01900EF111A /* APPrefsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APPrefsWindowController.h; path = src/APPrefsWindowController.h; sourceTree = "<group>"; };
+		D34DAB4A1350F01900EF111A /* APPrefsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APPrefsWindowController.m; path = src/APPrefsWindowController.m; sourceTree = "<group>"; };
+		D3EA1D3F1321FE38004C1718 /* APWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APWindowController.h; path = src/APWindowController.h; sourceTree = "<group>"; };
+		D3EA1D401321FE38004C1718 /* APWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APWindowController.m; path = src/APWindowController.m; sourceTree = "<group>"; };
+		D3EA1D421321FE38004C1718 /* APDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APDocument.h; path = src/APDocument.h; sourceTree = "<group>"; };
+		D3EA1D431321FE38004C1718 /* APDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APDocument.m; path = src/APDocument.m; sourceTree = "<group>"; };
 		D3EA1D441321FE38004C1718 /* XPathService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XPathService.h; path = src/XPathService.h; sourceTree = "<group>"; };
 		D3EA1D451321FE38004C1718 /* XPathServiceNSXMLImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XPathServiceNSXMLImpl.h; path = src/XPathServiceNSXMLImpl.h; sourceTree = "<group>"; };
 		D3EA1D461321FE38004C1718 /* XPathServiceNSXMLImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XPathServiceNSXMLImpl.m; path = src/XPathServiceNSXMLImpl.m; sourceTree = "<group>"; };
@@ -110,7 +115,7 @@
 		D3EA1D761321FE53004C1718 /* bodyMatchedContext.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = bodyMatchedContext.html; path = res/bodyMatchedContext.html; sourceTree = "<group>"; };
 		D3EA1D771321FE53004C1718 /* bodyContext.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = bodyContext.html; path = res/bodyContext.html; sourceTree = "<group>"; };
 		D3EA1D9A1321FE8C004C1718 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
-		D3EA1E681321FEF4004C1718 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/AquaPathWindow.xib; sourceTree = "<group>"; };
+		D3EA1E681321FEF4004C1718 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/APDocumentWindow.xib; sourceTree = "<group>"; };
 		D3EA1E6A1321FEF4004C1718 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D3EA210D1322A519004C1718 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = res/iTunesArtwork.png; sourceTree = "<group>"; };
 		D3EA210F1322A522004C1718 /* aquapath.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = aquapath.icns; path = res/aquapath.icns; sourceTree = "<group>"; };
@@ -211,8 +216,12 @@
 		D3EA1D3E1321FE38004C1718 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D3EA1D3F1321FE38004C1718 /* AquaPathController.h */,
-				D3EA1D401321FE38004C1718 /* AquaPathController.m */,
+				D3EA1D421321FE38004C1718 /* APDocument.h */,
+				D3EA1D431321FE38004C1718 /* APDocument.m */,
+				D3EA1D3F1321FE38004C1718 /* APWindowController.h */,
+				D3EA1D401321FE38004C1718 /* APWindowController.m */,
+				D34DAB491350F01900EF111A /* APPrefsWindowController.h */,
+				D34DAB4A1350F01900EF111A /* APPrefsWindowController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -220,8 +229,6 @@
 		D3EA1D411321FE38004C1718 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				D3EA1D421321FE38004C1718 /* AquaPathDocument.h */,
-				D3EA1D431321FE38004C1718 /* AquaPathDocument.m */,
 				D3EA1D441321FE38004C1718 /* XPathService.h */,
 				D3EA1D451321FE38004C1718 /* XPathServiceNSXMLImpl.h */,
 				D3EA1D461321FE38004C1718 /* XPathServiceNSXMLImpl.m */,
@@ -284,7 +291,8 @@
 		D3EA1D951321FE5B004C1718 /* Nib */ = {
 			isa = PBXGroup;
 			children = (
-				D3EA1E671321FEF4004C1718 /* AquaPathWindow.xib */,
+				D34DAB451350EEF500EF111A /* APPrefsWindow.xib */,
+				D3EA1E671321FEF4004C1718 /* APDocumentWindow.xib */,
 				D3EA1E691321FEF4004C1718 /* MainMenu.xib */,
 			);
 			name = Nib;
@@ -390,11 +398,12 @@
 				D3EA1D911321FE53004C1718 /* bodyMatched.html in Resources */,
 				D3EA1D921321FE53004C1718 /* bodyMatchedContext.html in Resources */,
 				D3EA1D931321FE53004C1718 /* bodyContext.html in Resources */,
-				D3EA1E6B1321FEF4004C1718 /* AquaPathWindow.xib in Resources */,
+				D3EA1E6B1321FEF4004C1718 /* APDocumentWindow.xib in Resources */,
 				D3EA1E6C1321FEF4004C1718 /* MainMenu.xib in Resources */,
 				D3EA210E1322A519004C1718 /* iTunesArtwork.png in Resources */,
 				D3EA21101322A522004C1718 /* aquapath.icns in Resources */,
 				D3EA21411322AA3A004C1718 /* aquapathdoc.icns in Resources */,
+				D34DAB471350EEF500EF111A /* APPrefsWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,13 +415,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D15AC320486D014006FF6A4 /* main.m in Sources */,
-				D3EA1D501321FE38004C1718 /* AquaPathController.m in Sources */,
-				D3EA1D511321FE38004C1718 /* AquaPathDocument.m in Sources */,
+				D3EA1D501321FE38004C1718 /* APWindowController.m in Sources */,
+				D3EA1D511321FE38004C1718 /* APDocument.m in Sources */,
 				D3EA1D521321FE38004C1718 /* XPathServiceNSXMLImpl.m in Sources */,
 				D3EA1D531321FE38004C1718 /* TreeBasedDHTMLPrettyPrinter.m in Sources */,
 				D3EA1D541321FE38004C1718 /* EventBasedDHTMLPrettyPrinter.m in Sources */,
 				D3EA1D551321FE38004C1718 /* BorderView.m in Sources */,
 				D3EA1D561321FE38004C1718 /* XSLTBasedDHTMLPrettyPrinter.m in Sources */,
+				D34DAB4B1350F01900EF111A /* APPrefsWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,12 +445,20 @@
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		D3EA1E671321FEF4004C1718 /* AquaPathWindow.xib */ = {
+		D34DAB451350EEF500EF111A /* APPrefsWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D34DAB461350EEF500EF111A /* English */,
+			);
+			name = APPrefsWindow.xib;
+			sourceTree = "<group>";
+		};
+		D3EA1E671321FEF4004C1718 /* APDocumentWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D3EA1E681321FEF4004C1718 /* English */,
 			);
-			name = AquaPathWindow.xib;
+			name = APDocumentWindow.xib;
 			sourceTree = "<group>";
 		};
 		D3EA1E691321FEF4004C1718 /* MainMenu.xib */ = {
